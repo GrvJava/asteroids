@@ -123,7 +123,7 @@ Sprite = function () {
     this.configureTransform();
     this.draw();
 
-    var canidates = this.findCollisionCanidates();
+    var canidat = this.findCollisionCanidates();
 
     this.matrix.configure(this.rot, this.scale, this.x, this.y);
     this.checkCollisionsAgainst(canidates);
